@@ -199,7 +199,7 @@ x86? (
 	usr/lib/libGLX_mesa.so.0.0.0
 )"
 PATCHES=(
-	"${FILESDIR}"/24.0.4-dzn-Include-vulkan_core.h-instead-of-vulkan.h-in-the.patch
+	"${FILESDIR}"/mesa-ps4-9999-r1.patch
 	"${FILESDIR}"/mesa-24.0.9.patch
 )
 
