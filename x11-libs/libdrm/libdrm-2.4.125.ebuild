@@ -42,8 +42,7 @@ RDEPEND="${COMMON_DEPEND}
 BDEPEND="${PYTHON_DEPS}
 	doc? ( $(python_gen_any_dep 'dev-python/docutils[${PYTHON_USEDEP}]') )"
 
-PATCHES=( "${FILESDIR}/libdrm-2.4.120-backport-pr353.patch"
-	  "${FILESDIR}/libdrm-2.4.120.patch" )
+PATCHES=("${FILESDIR}/libdrm-2.4.120.patch")
 
 python_check_deps() {
 	use doc || return 0
